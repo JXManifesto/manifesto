@@ -28,12 +28,12 @@
   "related_identifiers": [
     {
       "identifier": "https://jxmanifesto.org/en/versions/0.1/",
-      "relation": "isIdenticalTo",
+      "relation": "hasPart",
       "scheme": "url"
     },
     {
       "identifier": "https://jxmanifesto.org/fa/versions/0.1/",
-      "relation": "isIdenticalTo",
+      "relation": "hasPart",
       "scheme": "url"
     },
     {
