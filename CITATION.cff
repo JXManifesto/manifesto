@@ -11,6 +11,12 @@ authors:
     given-names: "Javid"
     orcid: "https://orcid.org/0009-0001-4608-142X"
 identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21888173"
+    description: "Archived version 0.1"
+  - type: doi
+    value: "10.5281/zenodo.21888172"
+    description: "Concept DOI for all versions"
   - type: url
     value: "https://jxmanifesto.org/en/versions/0.1/"
     description: "Permanent English edition"
@@ -36,4 +42,5 @@ preferred-citation:
     - family-names: "Momeni"
       given-names: "Javid"
       orcid: "https://orcid.org/0009-0001-4608-142X"
+  doi: "10.5281/zenodo.21888173"
   url: "https://jxmanifesto.org/en/versions/0.1/"
