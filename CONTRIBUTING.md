@@ -14,7 +14,7 @@ You do not need to know Git. Start from the contribution page and choose the foc
 1. **Draft** — a proposal is submitted with enough context to review; maintainers may ask for missing scope or evidence.
 2. **Discussion** — contributors and affected practitioners compare evidence, alternatives, and trade-offs.
 3. **Accepted / Rejected** — maintainers record a decision and its rationale. Accepted proposals remain unreleased until they are assigned to a version.
-4. **Released** — an accepted change appears in a tagged GitHub Release, the changelog, and an immutable version URL.
+4. **Released** — an accepted change appears in a Git tag, GitHub Release, changelog, permanent bilingual pages and versioned downloads, and a persistent Zenodo record with a DOI.
 
 There is no guarantee that a proposal will be accepted. Decisions should favor clarity, evidence, applicability across newsroom contexts, and semantic alignment between languages.
 
@@ -28,13 +28,15 @@ Use a pull request for a precise, reviewable change. Keep unrelated changes sepa
 - explain terminology choices that do not have a direct equivalent;
 - avoid including confidential newsroom information.
 
-This is a content-only repository and does not use npm. Before opening a pull
-request:
+This is a content-only repository and does not use npm. Install the declared
+validation dependency, then run the checks against all changes since `HEAD`
+(including staged changes):
 
 ```bash
+python -m pip install -r requirements-dev.txt
 jq empty .zenodo.json
 python -c 'import yaml; yaml.safe_load(open("CITATION.cff", encoding="utf-8"))'
-git diff --check -- . ':(exclude)en/manifesto.md' ':(exclude)fa/manifesto.md'
+git diff --check HEAD -- . ':(exclude)en/manifesto.md' ':(exclude)fa/manifesto.md'
 ```
 
 For a release import, also compare the English and Persian snapshot files with
@@ -46,7 +48,7 @@ the Markdown editions are intentional hard line breaks and may be reported by
 
 برای مشارکت لازم نیست با Git یا برنامه‌نویسی آشنا باشید. از صفحه «مشارکت» یکی از چهار مسیر اصلاح متن، نقد یا پیشنهاد اصل، ترجمه، یا ثبت تجربه تحریریه را انتخاب کنید.
 
-وضعیت پیشنهادها به‌ترتیب «پیش‌نویس»، «گفت‌وگو»، «پذیرفته/ردشده» و «منتشرشده» است. پذیرفته‌شدن به‌تنهایی به معنی انتشار نیست؛ تغییر تنها زمانی منتشرشده محسوب می‌شود که در یک تگ، GitHub Release، تاریخچه تغییرات و URL دائمی نسخه ثبت شود. تغییرهای فارسی و انگلیسی باید از نظر معنا هم‌راستا بمانند و اصطلاح‌های چپ‌به‌راست در متن فارسی به‌درستی ایزوله شوند.
+وضعیت پیشنهادها به‌ترتیب «پیش‌نویس»، «گفت‌وگو»، «پذیرفته/ردشده» و «منتشرشده» است. پذیرفته‌شدن به‌تنهایی به معنی انتشار نیست؛ تغییر تنها زمانی منتشرشده محسوب می‌شود که در تگ، GitHub Release، تاریخچه تغییرات، صفحات و فایل‌های دائمی دوزبانه و یک رکورد پایدار Zenodo دارای DOI ثبت شود. تغییرهای فارسی و انگلیسی باید از نظر معنا هم‌راستا بمانند و اصطلاح‌های چپ‌به‌راست در متن فارسی به‌درستی ایزوله شوند.
 
 See [VERSIONING.md](VERSIONING.md) for the release and permanence policy.
 
