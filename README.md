@@ -1,5 +1,7 @@
 # JX Manifesto
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21888173.svg)](https://doi.org/10.5281/zenodo.21888173)
+
 This is the canonical source repository for the bilingual, versioned **Journalist Experience (JX) Manifesto**.
 
 Journalist Experience is concerned with the quality of the tools, workflows, information flows, relationships, and working conditions that shape journalists' ability to do accurate, focused, and accountable work.
@@ -12,6 +14,8 @@ The first public version is **0.1**, published on June 25, 2026 and updated on A
 - [Persian permanent edition](https://jxmanifesto.org/fa/versions/0.1/)
 - [English PDF](https://jxmanifesto.org/downloads/jx-manifesto-v0.1-en.pdf)
 - [Persian PDF](https://jxmanifesto.org/downloads/jx-manifesto-v0.1-fa.pdf)
+- [Version 0.1 DOI](https://doi.org/10.5281/zenodo.21888173)
+- [Concept DOI for all versions](https://doi.org/10.5281/zenodo.21888172)
 
 The files under `en/` and `fa/` are immutable snapshots of version 0.1. The unversioned working manifesto lives on the website and may include accepted changes intended for a future release.
 
@@ -31,11 +35,11 @@ The manifesto is normative: it proposes what newsroom systems should value. JX i
 
 ## Citation
 
-Until a DOI is issued, cite the permanent version:
+To cite the exact archived version:
 
-> Momeni, Javid. “The Journalist Experience Manifesto.” Version 0.1. JX Manifesto, published June 25, 2026; updated August 5, 2026. https://jxmanifesto.org/en/versions/0.1/ — CC BY 4.0. ORCID: https://orcid.org/0009-0001-4608-142X.
+> Momeni, Javid. “The Journalist Experience Manifesto.” Version 0.1. JX Manifesto, published June 25, 2026; updated August 5, 2026. https://doi.org/10.5281/zenodo.21888173 — CC BY 4.0. ORCID: https://orcid.org/0009-0001-4608-142X.
 
-After the GitHub release is archived by Zenodo, the version DOI and concept DOI will be added here and to `CITATION.cff`.
+Use the [concept DOI](https://doi.org/10.5281/zenodo.21888172) when referring to the project across versions.
 
 ## Maintainer
 
