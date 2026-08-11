@@ -6,7 +6,7 @@ of each released version.
 
 ## Founder and current maintainer
 
-- **Javid Momeni** — founder, author, and current maintainer  
+- **Javid Momeni** — founder, author, and current maintainer
   ORCID: [0009-0001-4608-142X](https://orcid.org/0009-0001-4608-142X)
 
 ## Accepted contributions
