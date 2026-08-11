@@ -22,6 +22,6 @@ JX Manifesto is a public professional conversation about the conditions in which
 
 Maintainers may edit or remove content, pause a discussion, reject a contribution, or restrict participation when behavior violates this policy. Decisions should be proportionate and documented when doing so would not expose a reporter or affected person.
 
-For sensitive reports that should not be public, email **javid.momeni@gmail.com** with the subject “JX Code of Conduct”. Reports will be handled as privately as practical. Anyone directly involved in a report should not make the final enforcement decision alone.
+For sensitive reports that should not be public, email **javid.momeni@gmail.com** with the subject “JX Code of Conduct”. If the report concerns the current maintainer, send it instead to the independent route **editorial@jxmanifesto.org**. Reports will be handled as privately as practical. Anyone directly involved in a report should not make the final enforcement decision alone.
 
 This policy applies to the repository, issue forms, pull requests, discussions, and project-related public communication.
