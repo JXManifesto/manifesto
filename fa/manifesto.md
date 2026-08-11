@@ -97,4 +97,4 @@
 
 ## ارجاع پیشنهادی
 
-JX Manifesto. «منشور تجربه روزنامه‌نگار». نسخه ۰٫۱. انتشار ۴ تیر ۱۴۰۵؛ به‌روزرسانی ۱۴ مرداد ۱۴۰۵. https://JXManifesto.org/fa/versions/0.1/ — CC BY 4.0.
+مومنی، جاوید. «منشور تجربه روزنامه‌نگار». نسخه ۰٫۱. JX Manifesto، انتشار ۴ تیر ۱۴۰۵؛ به‌روزرسانی ۱۴ مرداد ۱۴۰۵. https://JXManifesto.org/fa/versions/0.1/ — CC BY 4.0. ORCID: https://orcid.org/0009-0001-4608-142X.

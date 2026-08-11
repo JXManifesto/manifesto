@@ -33,7 +33,7 @@ The manifesto is normative: it proposes what newsroom systems should value. JX i
 
 Until a DOI is issued, cite the permanent version:
 
-> JX Manifesto. “The Journalist Experience Manifesto.” Version 0.1. Published June 25, 2026; updated August 5, 2026. https://jxmanifesto.org/en/versions/0.1/ — CC BY 4.0.
+> Momeni, Javid. “The Journalist Experience Manifesto.” Version 0.1. JX Manifesto, published June 25, 2026; updated August 5, 2026. https://jxmanifesto.org/en/versions/0.1/ — CC BY 4.0. ORCID: https://orcid.org/0009-0001-4608-142X.
 
 After the GitHub release is archived by Zenodo, the version DOI and concept DOI will be added here and to `CITATION.cff`.
 

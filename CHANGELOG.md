@@ -11,7 +11,16 @@ Initial public version.
 - Defined Journalist Experience as the human, cognitive, and operational quality of editorial systems.
 - Published ten principles for focus, trust, human-AI collaboration, information flow, and newsroom reality.
 - Published five value comparisons and an open invitation for public revision.
-- Released semantically aligned English and Persian texts under CC BY 4.0.
+- Released bilingual English and Persian texts under CC BY 4.0.
+
+### Known language note
+
+- The Persian introduction and invitation name newsroom roles such as editors,
+  photojournalists, producers, and data journalists more explicitly than the
+  English edition. The version 0.1 snapshots preserve the published wording.
+  A future release should align the audience definition through the normal
+  bilingual proposal and review process rather than silently rewriting this
+  archived version.
 
 ### Publication record
 

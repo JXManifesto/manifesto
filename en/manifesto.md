@@ -97,4 +97,4 @@ This manifesto text is shared under Creative Commons Attribution 4.0 Internation
 
 ## Suggested citation
 
-JX Manifesto. “The Journalist Experience Manifesto.” Version 0.1. Published June 25, 2026; updated August 5, 2026. https://JXManifesto.org/en/versions/0.1/ — CC BY 4.0.
+Momeni, Javid. “The Journalist Experience Manifesto.” Version 0.1. JX Manifesto, published June 25, 2026; updated August 5, 2026. https://JXManifesto.org/en/versions/0.1/ — CC BY 4.0. ORCID: https://orcid.org/0009-0001-4608-142X.

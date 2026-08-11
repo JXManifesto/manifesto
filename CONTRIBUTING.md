@@ -28,13 +28,19 @@ Use a pull request for a precise, reviewable change. Keep unrelated changes sepa
 - explain terminology choices that do not have a direct equivalent;
 - avoid including confidential newsroom information.
 
-Run:
+This is a content-only repository and does not use npm. Before opening a pull
+request:
 
 ```bash
-npm install
-npm run lint
-npm run build
+jq empty .zenodo.json
+python -c 'import yaml; yaml.safe_load(open("CITATION.cff", encoding="utf-8"))'
+git diff --check -- . ':(exclude)en/manifesto.md' ':(exclude)fa/manifesto.md'
 ```
+
+For a release import, also compare the English and Persian snapshot files with
+the permanent downloads published by JXManifesto.org. Trailing double spaces in
+the Markdown editions are intentional hard line breaks and may be reported by
+`git diff --check`; do not remove them from an immutable snapshot.
 
 ## فارسی
 
