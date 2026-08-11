@@ -9,6 +9,7 @@ import urllib.request
 from pathlib import Path
 
 from jsonschema import Draft4Validator, FormatChecker
+import pycountry
 
 SCHEMA_URL = (
     "https://raw.githubusercontent.com/zenodo/zenodo/"
@@ -23,9 +24,15 @@ with urllib.request.urlopen(SCHEMA_URL, timeout=30) as response:
 # GitHub schema predates them. Keep the official schema strict while extending
 # it only with the two documented properties used by this repository.
 schema["properties"]["version"] = {"type": "string", "minLength": 1}
+language_codes = {language.alpha_3 for language in pycountry.languages}
+language_codes.update(
+    language.bibliographic
+    for language in pycountry.languages
+    if hasattr(language, "bibliographic")
+)
 schema["properties"]["language"] = {
     "type": "string",
-    "pattern": "^[a-z]{3}$",
+    "enum": sorted(language_codes),
 }
 
 metadata = json.loads(Path(".zenodo.json").read_text(encoding="utf-8"))
