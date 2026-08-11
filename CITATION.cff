@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use, discuss, or adapt the JX framework, please cite the stable version below."
+title: "The Journalist Experience Manifesto"
+version: "0.1"
+date-released: 2026-06-25
+license: CC-BY-4.0
+url: "https://jxmanifesto.org/en/versions/0.1/"
+repository-code: "https://github.com/JXManifesto/manifesto"
+authors:
+  - family-names: "Momeni"
+    given-names: "Javid"
+    orcid: "https://orcid.org/0009-0001-4608-142X"
+identifiers:
+  - type: url
+    value: "https://jxmanifesto.org/en/versions/0.1/"
+    description: "Permanent English edition"
+  - type: url
+    value: "https://jxmanifesto.org/fa/versions/0.1/"
+    description: "Permanent Persian edition"
+keywords:
+  - "Journalist Experience"
+  - "JX"
+  - "digital newsrooms"
+  - "journalism"
+  - "newsroom technology"
+  - "editorial workflows"
+  - "artificial intelligence in journalism"
+  - "human-computer interaction"
+  - "تجربه روزنامه‌نگار"
+preferred-citation:
+  type: report
+  title: "The Journalist Experience Manifesto"
+  version: "0.1"
+  year: 2026
+  authors:
+    - family-names: "Momeni"
+      given-names: "Javid"
+      orcid: "https://orcid.org/0009-0001-4608-142X"
+  url: "https://jxmanifesto.org/en/versions/0.1/"
