@@ -1,0 +1,44 @@
+{
+  "title": "The Journalist Experience Manifesto",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "description": "A bilingual, open, and versioned manifesto defining Journalist Experience (JX) and proposing ten principles for the design of newsroom tools, workflows, information flows, relationships, and working conditions. JX is currently a normative and conceptual framework, not a validated measurement instrument, certification, causal model, or scientific score.",
+  "creators": [
+    {
+      "name": "Momeni, Javid",
+      "orcid": "0009-0001-4608-142X"
+    }
+  ],
+  "keywords": [
+    "Journalist Experience",
+    "JX",
+    "Digital Newsrooms",
+    "Journalism",
+    "Newsroom Technology",
+    "Editorial Workflows",
+    "Artificial Intelligence in Journalism",
+    "Human-Computer Interaction",
+    "تجربه روزنامه‌نگار"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "0.1",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://jxmanifesto.org/en/versions/0.1/",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://jxmanifesto.org/fa/versions/0.1/",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/JXManifesto/jxmanifesto.org/releases/tag/v0.1",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
