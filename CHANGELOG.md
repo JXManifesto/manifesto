@@ -26,8 +26,9 @@ Initial public version.
 
 - Permanent pages: [English](https://jxmanifesto.org/en/versions/0.1/) and [Persian](https://jxmanifesto.org/fa/versions/0.1/)
 - Original website release: [v0.1](https://github.com/JXManifesto/jxmanifesto.org/releases/tag/v0.1)
-- Canonical manifesto repository release: to be created after this import is merged
-- Zenodo DOI: to be added after archival
+- Canonical manifesto repository release: [v0.1](https://github.com/JXManifesto/manifesto/releases/tag/v0.1)
+- Archived version DOI: [10.5281/zenodo.21888173](https://doi.org/10.5281/zenodo.21888173)
+- Concept DOI for all versions: [10.5281/zenodo.21888172](https://doi.org/10.5281/zenodo.21888172)
 - Versioned downloads: PDF, Markdown, and plain text in both languages
 
 [0.1]: https://github.com/JXManifesto/manifesto/releases/tag/v0.1
