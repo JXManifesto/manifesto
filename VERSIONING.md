@@ -15,7 +15,7 @@ The unversioned `/{locale}/manifesto/` route is the working text for the next re
 - **Draft** — submitted but not yet ready for a decision.
 - **Discussion** — open for evidence, alternatives, translation review, and affected perspectives.
 - **Accepted / Rejected** — a documented decision has been made. Accepted work is still unreleased.
-- **Released** — included in a tag, GitHub Release, changelog entry, permanent web snapshot, versioned downloads, and Zenodo archive.
+- **Released** — included in a Git tag, GitHub Release, changelog entry, permanent bilingual pages and versioned downloads, and a persistent Zenodo record with a DOI.
 
 ## Release checklist
 
