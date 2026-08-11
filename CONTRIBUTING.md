@@ -2,7 +2,7 @@
 
 JX is an open, versioned professional manifesto. Contributions may improve wording, challenge a principle, add a translation, or document evidence from a real newsroom.
 
-You do not need to know Git. Start from the contribution page and choose the focused form that matches your proposal:
+You do not need to know Git. Start from the [English contribution page](https://jxmanifesto.org/en/contribute/) or the [Persian contribution page](https://jxmanifesto.org/fa/contribute/) and choose the focused form that matches your proposal:
 
 - Wording change: quote the current passage, propose replacement text, and explain the improvement.
 - Principle proposal: connect the proposal to a concrete newsroom decision or workflow.
@@ -34,8 +34,7 @@ committed pull-request diff and any staged or unstaged local changes:
 
 ```bash
 python -m pip install -r requirements-dev.txt
-jq empty .zenodo.json
-python -c 'import yaml; yaml.safe_load(open("CITATION.cff", encoding="utf-8"))'
+bash scripts/validate-metadata.sh
 git fetch origin main
 git diff --check origin/main...HEAD -- . ':(exclude)en/manifesto.md' ':(exclude)fa/manifesto.md'
 git diff --check HEAD -- . ':(exclude)en/manifesto.md' ':(exclude)fa/manifesto.md'
@@ -48,7 +47,7 @@ the Markdown editions are intentional hard line breaks and may be reported by
 
 ## فارسی
 
-برای مشارکت لازم نیست با Git یا برنامه‌نویسی آشنا باشید. از صفحه «مشارکت» یکی از چهار مسیر اصلاح متن، نقد یا پیشنهاد اصل، ترجمه، یا ثبت تجربه تحریریه را انتخاب کنید.
+برای مشارکت لازم نیست با Git یا برنامه‌نویسی آشنا باشید. از [صفحه مشارکت فارسی](https://jxmanifesto.org/fa/contribute/) یکی از چهار مسیر اصلاح متن، نقد یا پیشنهاد اصل، ترجمه، یا ثبت تجربه تحریریه را انتخاب کنید.
 
 وضعیت پیشنهادها به‌ترتیب «پیش‌نویس»، «گفت‌وگو»، «پذیرفته/ردشده» و «منتشرشده» است. پذیرفته‌شدن به‌تنهایی به معنی انتشار نیست؛ تغییر تنها زمانی منتشرشده محسوب می‌شود که در تگ، GitHub Release، تاریخچه تغییرات، صفحات و فایل‌های دائمی دوزبانه و یک رکورد پایدار Zenodo دارای DOI ثبت شود. تغییرهای فارسی و انگلیسی باید از نظر معنا هم‌راستا بمانند و اصطلاح‌های چپ‌به‌راست در متن فارسی به‌درستی ایزوله شوند.
 
