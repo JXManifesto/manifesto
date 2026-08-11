@@ -29,13 +29,15 @@ Use a pull request for a precise, reviewable change. Keep unrelated changes sepa
 - avoid including confidential newsroom information.
 
 This is a content-only repository and does not use npm. Install the declared
-validation dependency, then run the checks against all changes since `HEAD`
-(including staged changes):
+validation dependency, fetch the current base branch, then check both the
+committed pull-request diff and any staged or unstaged local changes:
 
 ```bash
 python -m pip install -r requirements-dev.txt
 jq empty .zenodo.json
 python -c 'import yaml; yaml.safe_load(open("CITATION.cff", encoding="utf-8"))'
+git fetch origin main
+git diff --check origin/main...HEAD -- . ':(exclude)en/manifesto.md' ':(exclude)fa/manifesto.md'
 git diff --check HEAD -- . ':(exclude)en/manifesto.md' ':(exclude)fa/manifesto.md'
 ```
 
